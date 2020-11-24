@@ -1,0 +1,95 @@
+@charset "utf-8";
+form#fContato {
+    width: 600px;
+    margin: auto;
+}
+
+input,
+textarea {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    opacity: 0.5;
+}
+
+input:hover,
+textarea:hover {
+    background-color: #dddddd;
+}
+
+legend {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+fieldset {
+    border-color: #888888;
+    margin: 20px;
+}
+
+fieldset#sexo {
+    width: 150px;
+    border-color: #cecece;
+    margin-left: 115px;
+}
+
+input#cData {
+    width: 230px;
+}
+
+fieldset#usuario {
+    background: url(../_imagens/icone-contato.png) no-repeat 95% 95%;
+}
+
+fieldset#Endereco {
+    background: url(../_imagens/icone-endereco.png) no-repeat 95% 95%;
+}
+
+input#cLugradouro {
+    width: 300px;
+}
+
+input#cNumero {
+    margin-left: 25px;
+    width: 300px;
+}
+
+select#cUf {
+    margin-left: 30px;
+    height: 30px;
+    width: 310px;
+    font-size: 13pt;
+    opacity: 0.5;
+}
+
+input#cCidade {
+    margin-left: 30px;
+    width: 300px;
+}
+
+fieldset#mensagem {
+    background: url(../_imagens/icone-mensagem.png)no-repeat 95% 95%;
+}
+
+label#msg {
+    display: block;
+    width: 100%;
+}
+
+textarea#cMsg {
+    display: block;
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+fieldset#solicitacao {
+    background: url(../_imagens/icone-pagamento.png) no-repeat 95% 95%;
+}
+
+input#cCor {
+    width: 20px;
+}
