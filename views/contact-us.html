@@ -3,112 +3,105 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Tudo sobre Google Glass</title>
+    <title>All about Google Glass</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/form.css">
     <script language="javascript" src="../js/functions.js"></script>
-    <script>
-        function calc_total() {
-            var qtd = parseInt(document.getElementById('cQntd').value);
-            var valor = qtd * 1500 * 6;
-            document.getElementById('cTot').value = valor;
-        }
-    </script>
 </head>
 
 <body>
-    <div id="Interface">
-        <header id="headerId">
-            <hgroup>
-                <h1> Google Glass</h1>
-                <h2> A revolução do Google está chegando</h2>
-            </hgroup>
+   <div id="Interface">
+       <header id="headerId">
+           <hgroup>
+               <h1>Google Glass</h1>
+               <h2>The Google revolution is coming</h2>
+           </hgroup>
 
-            <img id="IconId" src="../img/contato.png">
-            <nav id="Menu">
-                <h1> Main Menu</h1>
-                <ul type="disc">
-                    <li onmouseover="changePic('../img/home.png')" onmouseout="changePic ('../img/contato.png')"> <a href="index.html"> Home </a></li>
-                    <li onmouseover="changePic('../img/especificacoes.png')" onmouseout="changePic ('../img/contato.png')"> <a href="specs.html"> Especificações </a></li>
-                    <li onmouseover="changePic('../img/fotos.png')" onmouseout="changePic ('../img/contato.png')"> <a href="images.html"> Fotos </a></li>
-                    <li onmouseover="changePic('../img/multimidia.png')" onmouseout="changePic ('../img/contato.png')"> <a href="media.html"> Multimídia </a></li>
-                    <li onmouseover="changePic('../img/contato.png')" onmouseout="changePic ('../img/contato.png')"> <a href="contact-us.html"> Fale conosco</a></li>
-                </ul>
-            </nav>
-        </header>
+           <img id="IconId" src="../img/contato.png">
+           <nav id="Menu">
+               <h1> Main Menu</h1>
+               <ul type="disc">
+                   <li onmouseover="changePic('../img/home.png')" onmouseout="changePic ('../img/contato.png')"> <a href="index.html"> Home </ a></li>
+                   <li onmouseover="changePic('../img/especificacoes.png')" onmouseout="changePic ('../img/contato.png')"> <a href="specs.html"> Specifications </ a></li>
+                   <li onmouseover="changePic('../img/fotos.png')" onmouseout="changePic ('../img/contato.png')"> <a href="images.html"> Photos </ a></li>
+                   <li onmouseover="changePic('../img/multimidia.png')" onmouseout="changePic ('../img/contato.png')"> <a href="media.html"> Multimedia </ a></li>
+                   <li onmouseover="changePic('../img/contato.png')" onmouseout="changePic ('../img/contato.png')"> <a href="contact-us.html"> Contact with us</a></li>
+               </ul>
+           </nav>
+       </header>
 
         <section id="bodyId-full">
             <article id="NoticiaPricipal">
                 <header id="headerId-article">
                     <hgroup id="bread crombs">
 
-                        <h1>Formulário de Contato</h1>
-                        <h2>por Valmir Barros</h2>
+                        <h1>Contact Form</h1>
+                        <h2>by Valmir Barros</h2>
                     </hgroup>
                 </header>
             </article>
 
 
-            <form method="POST" id="fContato" action="mailto:valmir.barros57@yahoo.com.br" oninput="calc_total();">
+            <form method="POST" id="fContact" action="mailto:valmir.barros57@yahoo.com.br" oninput="calc_total();">
 
-                <fieldset id="usuario">
+                <fieldset id="user">
 
-                    <legend>Identificação do Usuário</legend>
+                    <legend>User Identification</legend>
                     <p>
-                        <LABel for="cNome">  Nome:</LABel> <input type="text" name="tNome" id="cNome" size="30" maxlength="30" placeholder="Nome Completo">
+                        <LABel for="cName"> Name:</LABel> <input type="text" name="tName" id="cName" size="30" maxlength="30" placeholder="Full Name">
                     </p>
                     <p>
-                        <label for="cSenha">Senha:</label> <input type="password" name="tSenha" id="cSenha" size="30" maxlength="8" placeholder="8 Digitos">
+                        <label for="cPsw">Password:</label> <input type="password" name="tPassword" id="cPsw" size="30" maxlength="8" placeholder="8 Digits">
                     </p>
                     <p>
-                        <label for="cMail"> E-mail:</label> <input type="email" name="tMail" id="cMail" size="30" maxlength="20" placeholder="Digite seu e-mail">
+                        <label for="cMail"> Email:</label> <input type="email" name="tMail" id="cMail" size="30" maxlength="20" placeholder="Enter your email mail">
                     </p>
-                    <fieldset id="sexo">
+                    <fieldset id="sex">
 
-                        <legend>Sexo</legend>
+                        <legend>sex</legend>
 
-                        <input type="radio" name="tSexo" id="cMas">
-                        <label for="cMas"> Masculino </label> <br>
-                        <input type="radio" name="tSexo" id="cFem"> <label for="cFem"> Feminino </label>
+                        <input type="radio" name="tsex" id="cMas">
+                        <label for="cMas"> Male </label> <br>
+                        <input type="radio" name="tsex" id="cFem"> <label for="cFem"> Female </label>
 
                     </fieldset>
 
-                    <p> <label for="cData">Data de Nascimento: </label> <input type="date" name="tData" id="cData"> </p>
+                    <p> <label for="cData">Date of Birth: </label> <input type="date" name="tData" id="cData"> </p>
                 </fieldset>
 
-                <fieldset id="Endereco">
-                    <legend>Endereço do Usuário</legend>
+                <fieldset id="Address">
+                    <legend>User Address</legend>
 
                     <p>
-                        <label for="cLugradouro">Logradouro: </label> <input type="text" name="tLugradouro" id="cLugradouro" size="20" maxlength="20" placeholder="Rua, Avenida, Travessa etc...">
+                        <label for="cPlace">Logradouro: </label> <input type="text" name="tLugradouro" id="cPlace" size="20" maxlength="20" placeholder="Rua, Avenida, Travessa etc ...">
                     </p>
 
                     <p>
-                        <label for="cNumero">Número:</label> <input type="text" name="tNumero" id="cNumero" size="20" maxlength="10">
+                        <label for="cNumber">Number:</label> <input type="text" name="tNumber" id="cNumber" size="20" maxlength="10">
                     </p>
 
                     <p>
-                        <label for="cUF"> Estado:</label>
+                        <label for="cUF"> Status:</label>
                         <select name="tUf" id="cUf">
-                        <option value="Sl" selected> Selecione o estado</option>
+                        <option value="Sl" selected> Select state</option>
 
-                        <optgroup label="Região Sudeste">
+                        <optgroup label="Southeast Region">
                             <option value="RJ">Rio de Janeiro-RJ</option>
                             <option value="SP"> São Paulo-SP</option>
                             <option value="MG"> Minas Gerais-MG</option>
                         </optgroup>
 
-                        <optgroup label="Região Sul">
+                        <optgroup label="South Region">
                             <option value="PR">Paraná-PR</option>
                             <option value="SC"> Santa Catarina-SC</option>
-                            <option value="RS">Rio grando do Sul-RS</option>
+                            <option value="RS">Rio Grande do Sul-RS</option>
                         </optgroup>
                     </select>
                     </p>
 
                     <p>
-                        <label for="cCidade"> Cidade: </label><input type="text" name="tCidade" id="cCidade" placeholder="Sua cidade" list="cidades"></p>
-                    <datalist id="cidades">
+                        <label for="cCity"> City: </label><input type="text" name="tCity" id="cCity" placeholder="Your city" list="cities"></p>
+                    <datalist id="cities">
                         <option value="Angra dos Reis"> </option>
                             <option value="Aperibé"> </option>
                             <option value="Araruama"> </option>
@@ -119,7 +112,7 @@
                             <option value="Bom Jardim"> </option>
                             <option value="Bom Jesus do Itabapoana"> </option>
                             <option value="Cabo Frio"> </option>
-                            <option value="Cachoeiras de Macacu"> </option>
+                            <option value="Macacu Waterfalls"> </option>
                             <option value="Macacu Cambuci"> </option>
                             <option value="Cambuci"> </option>
                             <option value="Campos dos Goytacazes"> </option>
@@ -128,48 +121,49 @@
 
                 </fieldset>
 
-                <fieldset id="mensagem">
-                    <legend>Mensagem do Usuário</legend>
+                <fieldset id="message">
+                    <legend>User Message</legend>
                     <p>
-                        <label for="cUgencia">Grau de Urgência:</label> Mín<input type="range" name="tUrgencia" id="cUgencia" min="0" max="10" step="5"> Máx
+                        <label for="cUgencia">Degree of Urgency:</label> Min<input type="range" name="tUrgencia" id="cUgencia" min="0" max="10" step="5"> Max
                     </p>
 
                     <p>
-                        <label for="cMsg" id="msg"> Mensagem:</label>
-                        <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Sua mensagem"></textarea>
+                        <label for="cMsg" id="msg"> Message:</label>
+                        <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Your message"></textarea>
                     </p>
 
                 </fieldset>
-                <fieldset id="solicitacao">
-                    <legend>Quero um Google Glass&REG; </legend>
 
+                <fieldset id="request">
+                     <legend>I want a Google Glass&REG; </legend>
+
+                     <p>
+                         <input type="checkbox" name="tI want" id="cI want" checked> <label for="cI want"> I would like to purchase a GoogleGlass&reg; when available </label>
+                     </p>
+                     <p>
+                         <label for="cCor"> Color:</label> <input type="color" name="tCor" id="cCor">
+                     </p>
+                     <p>
+                         <label for="cQntd">Quantity:</label> <input type="number" name="tQntd" id="cQntd" min="0" max="5" size="20">
+                     </p>
+                     <p>
+                         Total: US$ <input type="text" name="tTot" id="cTot" placeholder="Total payable" readonly>
+                     </p>
+                 </fieldset>
+
+                 <input type="image" name="tEnv" id="cEnv" src="../img/botao-enviar.png">
+
+                </form>
+
+                <footer id='Footer'>
                     <p>
-                        <input type="checkbox" name="tQuero" id="cQuero" checked> <label for="cQuero"> Gostaria de adquirir um GoogleGlass&reg; quando disponível </label>
+                        Copyright&copy; 2020 - by <a href="https://github.com/ValmirBP" target="_blank">Valmir Barros</a> <br />
+                        <a href="https://www.facebook.com/valmir.barros.169/" target="_blank"> Facebook </a> |
+                        <a href="https://www.linkedin.com/in/valmir-barros/" target="_blank">LinkedIn</a>
                     </p>
-                    <p>
-                        <label for="cCor"> Cor:</label> <input type="color" name="tCor" id="cCor">
-                    </p>
-                    <p>
-                        <label for="cQntd">Quantidade:</label> <input type="number" name="tQntd" id="cQntd" min="0" max="5" size="20">
-                    </p>
-                    <p>
-                        Preço Total: R$ <input type="text" name="tTot" id="cTot" placeholder="Total a pagar" readonly>
-                    </p>
-                </fieldset>
+                </footer>
+            </section>
+        </div>
+   </body>
 
-                <input type="image" name="tEnv" id="cEnv" src="../img/botao-enviar.png">
-
-            </form>
-
-            <footer id='Rodape'>
-                <p>
-                    Copyright&copy; 2020 - by <a href="https://github.com/ValmirBP" target="_blank">Valmir Barros</a> <br />
-                    <a href="https://www.facebook.com/valmir.barros.169/" target="_blank"> Facebook </a> |
-                    <a href="https://www.linkedin.com/in/valmir-barros/" target="_blank">LinkedIn</a>
-                </p>
-            </footer>
-        </section>
-    </div>
-</body>
-
-</html>
+   </html>

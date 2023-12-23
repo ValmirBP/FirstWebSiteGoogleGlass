@@ -1,5 +1,5 @@
 @charset "utf-8";
-form#fContato {
+form#fContact {
     width: 600px;
     margin: auto;
 }
@@ -29,7 +29,7 @@ fieldset {
     margin: 20px;
 }
 
-fieldset#sexo {
+fieldset#sex {
     width: 150px;
     border-color: #cecece;
     margin-left: 115px;
@@ -39,19 +39,19 @@ input#cData {
     width: 230px;
 }
 
-fieldset#usuario {
+fieldset#user {
     background: url(../img/IconId-contato.png) no-repeat 95% 95%;
 }
 
-fieldset#Endereco {
+fieldset#Address {
     background: url(../img/IconId-endereco.png) no-repeat 95% 95%;
 }
 
-input#cLugradouro {
+input#cPlace {
     width: 300px;
 }
 
-input#cNumero {
+input#cNumber {
     margin-left: 25px;
     width: 300px;
 }
