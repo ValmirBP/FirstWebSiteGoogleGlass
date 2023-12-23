@@ -1,5 +1,5 @@
 @charset "utf-8";
-ul#album-fotos {
+ul#album-Photos {
     width: 700px;
     margin: 0 auto;
     padding: 50px;
@@ -7,7 +7,7 @@ ul#album-fotos {
     list-style: none;
 }
 
-ul#album-fotos li {
+ul#album-Photos li {
     float: left;
     width: 200px;
     height: 200px;
@@ -18,7 +18,7 @@ ul#album-fotos li {
     -webkit-transition: all .4s ease-in;
 }
 
-ul#album-fotos li span {
+ul#album-Photos li span {
     opacity: 0;
     color: white;
     text-shadow: 1px 1px 1px black;
@@ -28,82 +28,82 @@ ul#album-fotos li span {
     padding: 5px;
 }
 
-ul#album-fotos li:hover {
+ul#album-Photos li:hover {
     -webkit-transform: scale(1.5);
 }
 
-ul#album-fotos li:hover span {
+ul#album-Photos li:hover span {
     opacity: 1;
 }
 
-ul#album-fotos li#foto01 {
+ul#album-Photos li#photo01 {
     background-image: url('../img/galeria-01.jpg');
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: white;
 }
 
-ul#album-fotos li#foto01:hover {
+ul#album-Photos li#photo01:hover {
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
 
-ul#album-fotos li#foto02 {
+ul#album-Photos li#photo02 {
     background-image: url('../img/galeria-02.jpg');
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: white;
 }
 
-ul#album-fotos li#foto02:hover {
+ul#album-Photos li#photo02:hover {
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
 
-ul#album-fotos li#foto03 {
+ul#album-Photos li#photo03 {
     background-image: url('../img/galeria-03.jpg');
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: white;
 }
 
-ul#album-fotos li#foto03:hover {
+ul#album-Photos li#photo03:hover {
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
 
-ul#album-fotos li#foto04 {
+ul#album-Photos li#photo04 {
     background-image: url('../img/galeria-04.jpg');
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: white;
 }
 
-ul#album-fotos li#foto04:hover {
+ul#album-Photos li#photo04:hover {
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
 
-ul#album-fotos li#foto05 {
+ul#album-Photos li#photo05 {
     background-image: url('../img/galeria-05.jpg');
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: white;
 }
 
-ul#album-fotos li#foto05:hover {
+ul#album-Photos li#photo05:hover {
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
 
-ul#album-fotos li#foto06 {
+ul#album-Photos li#photo06 {
     background-image: url('../img/galeria-06.jpg');
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: white;
 }
 
-ul#album-fotos li#foto06:hover {
+ul#album-Photos li#photo06:hover {
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
