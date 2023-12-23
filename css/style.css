@@ -228,7 +228,7 @@
 	    margin-top: 10px;
 	}
 
-	aside#Lateral {
+	aside#Side {
 	    display: block;
 	    width: 400px;
 	    float: right;
@@ -238,14 +238,14 @@
 	    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
 	}
 
-	aside#Lateral h1 {
+	aside#Side h1 {
 	    font-family: 'fonteLogo', sans-serif;
 	    font-size: 20pt;
 	    color: #606060;
 	    margin-top: 0px;
 	}
 
-	aside#Lateral h2 {
+	aside#Side h2 {
 	    background-color: #606060;
 	    font-size: 13pt;
 	    color: #ffffff;
@@ -264,11 +264,11 @@
 	}
 
 
-	footer#Rodape {
+	footer#Footer {
 	    clear: both;
 	    border-top: 1px solid #606060;
 	}
 
-	footer#Rodape p {
+	footer#Footer p {
 	    text-align: center;
 	}
