@@ -6,7 +6,7 @@ div#tv-radio {
     background: url("../img/radio-tv.png") no-repeat;
 }
 
-audio#musica {
+audio#music {
     display: block;
     position: relative;
     width: 300px;
@@ -15,7 +15,7 @@ audio#musica {
     top: 500px;
 }
 
-video#filme {
+video#movie {
     display: block;
     position: relative;
     left: 80px;
