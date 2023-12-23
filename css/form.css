@@ -40,11 +40,11 @@ input#cData {
 }
 
 fieldset#usuario {
-    background: url(../img/icone-contato.png) no-repeat 95% 95%;
+    background: url(../img/IconId-contato.png) no-repeat 95% 95%;
 }
 
 fieldset#Endereco {
-    background: url(../img/icone-endereco.png) no-repeat 95% 95%;
+    background: url(../img/IconId-endereco.png) no-repeat 95% 95%;
 }
 
 input#cLugradouro {
@@ -70,7 +70,7 @@ input#cCidade {
 }
 
 fieldset#mensagem {
-    background: url(../img/icone-mensagem.png)no-repeat 95% 95%;
+    background: url(../img/IconId-mensagem.png)no-repeat 95% 95%;
 }
 
 label#msg {
@@ -87,7 +87,7 @@ textarea#cMsg {
 }
 
 fieldset#solicitacao {
-    background: url(../img/icone-pagamento.png) no-repeat 95% 95%;
+    background: url(../img/IconId-pagamento.png) no-repeat 95% 95%;
 }
 
 input#cCor {

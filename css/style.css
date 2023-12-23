@@ -4,97 +4,110 @@
 	    font-family: 'fonteLogo';
 	    src: url("../fonts/bubblegum-sans-regular.otf")
 	}
-	
+
 	body {
 	    font-family: Arial, sans-serif;
 	    background-color: #dddddd;
 	    color: rgba (0, 0, 0, 1)
 	}
-	
+
 	div#Interface {
-	    width: 950px;
-	    background-color: #ffffff;
-	    margin: -20px auto 0px auto;
-	    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
-	    padding: 15px;
+		width: 950px;
+		background-color: #ffffff;
+		margin: -20px auto 0px auto;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+		padding: 15px;
 	}
-	
-	header#Cabecalho img#Icone {
-	    position: absolute;
-	    left: 910px;
-	    top: 85px;
+
+	header#headerId {
+		position: relative;
+		border-bottom: 1px #606060 solid;
+		height: 150px;
+		background: url("../img/glass-logo-peq.jpg") no-repeat 0px 80px;
 	}
-	
-	header#Cabecalho {
-	    border-bottom: 1px #606060 solid;
-	    height: 150px;
-	    background: url("../img/glass-logo-peq.jpg")no-repeat 0px 80px;
+
+	header#headerId img#IconId {
+		position: absolute;
+		left: 85%;
+		top: 25px;
+		transform: translateX(-50%);
+		max-width: 100%;
+		height: auto;
 	}
-	
-	header#Cabecalho h1 {
-	    font-family: 'fonteLogo', sans-serif;
-	    font-size: 30pt;
-	    color: #606060;
-	    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
-	    padding: 0px;
-	    margin-bottom: 0px;
+
+	@media (max-width: 768px) {
+		header#headerId img#IconId {
+			left: 10px;
+			top: 20px;
+			transform: none;
+		}
 	}
-	
-	header#Cabecalho h2 {
-	    font-family: 'Titillium Web', sans-serif;
-	    font-size: 15pt;
-	    color: #888888;
-	    padding: 0px;
-	    margin-top: 0px;
+
+	/* Other styles remain unchanged */
+	header#headerId h1 {
+		font-family: 'fonteLogo', sans-serif;
+		font-size: 30pt;
+		color: #606060;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+		padding: 0px;
+		margin-bottom: 0px;
 	}
-	
-	p {
-	    text-align: justify;
-	    text-indent: 50px;
+
+	header#headerId h2 {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 15pt;
+		color: #888888;
+		padding: 0px;
+		margin-top: 0px;
 	}
-	
-	a {
-	    color: #606060;
-	    text-decoration: none;
-	}
-	
-	a:hover {
-	    text-decoration: wavy;
-	    text-decoration: underline;
-	}
-	
-	figure.foto-legenda {
-	    position: relative;
-	    border: 8px solid white;
-	    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
-	}
-	
-	figure.foto-legenda img {
-	    width: 100%;
-	    height: 100%;
-	}
-	
-	figure.foto-legenda figcaption {
-	    opacity: 0;
-	    position: absolute;
-	    top: 0px;
-	    background-color: rgba(0, 0, 0, .4);
-	    color: white;
-	    width: 100%;
-	    height: 100%;
-	    padding: 10px;
-	    box-sizing: border-box;
-	    transition: opacity 1s;
-	}
-	
-	figure.foto-legenda:hover figcaption {
+
+		p {
+			text-align: justify;
+			text-indent: 50px;
+		}
+
+		a {
+			color: #606060;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: wavy;
+			text-decoration: underline;
+		}
+
+		figure.foto-legenda {
+			position: relative;
+			border: 8px solid white;
+			box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+		}
+
+		figure.foto-legenda img {
+			width: 100%;
+			height: 100%;
+		}
+
+		figure.foto-legenda figcaption {
+			opacity: 0;
+			position: absolute;
+			top: 0px;
+			background-color: rgba(0, 0, 0, .4);
+			color: white;
+			width: 100%;
+			height: 100%;
+			padding: 10px;
+			box-sizing: border-box;
+			transition: opacity 1s;
+		}
+
+		figure.foto-legenda:hover figcaption {
 	    opacity: 1;
 	}
-	
+
 	nav#Menu {
 	    display: flex;
 	}
-	
+
 	nav#Menu ul {
 	    list-style: none;
 	    text-transform: uppercase;
@@ -102,92 +115,92 @@
 	    top: -125px;
 	    left: 300px;
 	}
-	
+
 	nav#Menu li {
 	    display: inline-block;
 	    background-color: #DDDDDD;
 	    padding: 10px;
 	    margin: 2px;
 	}
-	
+
 	nav#Menu li:hover {
 	    background-color: #606060;
 	    transition: background-color 0.5s;
 	}
-	
+
 	nav#Menu h1 {
 	    display: none;
 	}
-	
+
 	nav#Menu a {
 	    color: black;
 	    text-decoration: none;
 	}
-	
+
 	nav#Menu a:hover {
 	    color: white;
 	    text-decoration: underline;
 	    text-decoration: wavy;
 	}
-	
-	section#Corpo {
+
+	section#bodyId {
 	    display: block;
 	    width: 500px;
 	    float: left;
 	    border-right: 1px solid #606060;
 	    padding-right: 15px;
 	}
-	
-	article#NoticiaPrincipal h2 {
+
+	article#mainNews h2 {
 	    font-size: 15pt;
 	    color: #606060;
 	    background-color: #dddddd;
 	    font-weight: bold;
 	    padding: 10px;
 	}
-	
-	header#Cabecalho-artigo h1 {
+
+	header#headerId-article h1 {
 	    font-family: 'fonteLogo', sans-serif;
 	    font-size: 20pt;
 	    color: #606060;
 	    margin-bottom: 0px;
 	    margin-top: 0px;
 	}
-	
-	header#Cabecalho-artigo h2 {
+
+	header#headerId-article h2 {
 	    font-size: 13pt;
 	    color: #888888;
 	    background-color: #ffffff;
 	    margin: 0px;
 	}
-	
-	header#Cabecalho-artigo h3 {
+
+	header#headerId-article h3 {
 	    font-size: 13pt;
 	    color: #606060;
 	    margin-bottom: 0px;
 	}
-	
-	header#Cabecalho-artigo h3 span {
+
+	header#headerId-article h3 span {
 	    display: block;
 	    float: right;
 	    font-size: 8pt;
 	    color: #606060;
 	}
-	
+
 	table#TabelaSpec {
 	    border: 1px soli #606060;
 	    border-spacing: 0px;
 	    margin-left: auto;
 	    margin-right: auto;
 	}
-	
+
 	table#TabelaSpec td {
 	    border: 1px solid #606060;
 	    padding: 10px;
 	    text-align: center;
 	    vertical-align: middle;
 	}
-	
+
 	table#TabelaSpec td.ce {
 	    background-color: #606060;
 	    color: #ffffff;
@@ -195,18 +208,18 @@
 	    font-weight: bold;
 	    text-align: right;
 	}
-	
+
 	table#TabelaSpec td.cd {
 	    background-color: #cececece;
 	    text-align: left;
 	}
-	
+
 	table#TabelaSpec caption {
 	    color: #888888;
 	    font-size: 15pt;
 	    font-weight: bold;
 	}
-	
+
 	table#TabelaSpec caption span {
 	    display: block;
 	    float: right;
@@ -214,7 +227,7 @@
 	    font-size: 8pt;
 	    margin-top: 10px;
 	}
-	
+
 	aside#Lateral {
 	    display: block;
 	    width: 400px;
@@ -224,26 +237,38 @@
 	    margin-top: 10px;
 	    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
 	}
-	
+
 	aside#Lateral h1 {
 	    font-family: 'fonteLogo', sans-serif;
 	    font-size: 20pt;
 	    color: #606060;
 	    margin-top: 0px;
 	}
-	
+
 	aside#Lateral h2 {
 	    background-color: #606060;
 	    font-size: 13pt;
 	    color: #ffffff;
 	    padding: 10px;
 	}
-	
+
+	#video01 {
+		width: 100%;
+		margin: auto;
+	}
+
+	#video01 video {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+
+
 	footer#Rodape {
 	    clear: both;
 	    border-top: 1px solid #606060;
 	}
-	
+
 	footer#Rodape p {
 	    text-align: center;
 	}
