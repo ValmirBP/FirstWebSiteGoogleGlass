@@ -76,18 +76,18 @@
 			text-decoration: underline;
 		}
 
-		figure.foto-legenda {
+		figure.img-caption {
 			position: relative;
 			border: 8px solid white;
 			box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 		}
 
-		figure.foto-legenda img {
+		figure.img-caption img {
 			width: 100%;
 			height: 100%;
 		}
 
-		figure.foto-legenda figcaption {
+		figure.img-caption figcaption {
 			opacity: 0;
 			position: absolute;
 			top: 0px;
@@ -100,7 +100,7 @@
 			transition: opacity 1s;
 		}
 
-		figure.foto-legenda:hover figcaption {
+		figure.img-caption:hover figcaption {
 	    opacity: 1;
 	}
 
