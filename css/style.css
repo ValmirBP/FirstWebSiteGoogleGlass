@@ -187,21 +187,21 @@
 	    color: #606060;
 	}
 
-	table#TabelaSpec {
+	table#TableSpec {
 	    border: 1px soli #606060;
 	    border-spacing: 0px;
 	    margin-left: auto;
 	    margin-right: auto;
 	}
 
-	table#TabelaSpec td {
+	table#TableSpec td {
 	    border: 1px solid #606060;
 	    padding: 10px;
 	    text-align: center;
 	    vertical-align: middle;
 	}
 
-	table#TabelaSpec td.ce {
+	table#TableSpec td.ce {
 	    background-color: #606060;
 	    color: #ffffff;
 	    vertical-align: top;
@@ -209,18 +209,18 @@
 	    text-align: right;
 	}
 
-	table#TabelaSpec td.cd {
+	table#TableSpec td.cd {
 	    background-color: #cececece;
 	    text-align: left;
 	}
 
-	table#TabelaSpec caption {
+	table#TableSpec caption {
 	    color: #888888;
 	    font-size: 15pt;
 	    font-weight: bold;
 	}
 
-	table#TabelaSpec caption span {
+	table#TableSpec caption span {
 	    display: block;
 	    float: right;
 	    color: black;
